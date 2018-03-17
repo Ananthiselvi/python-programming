@@ -1,0 +1,13 @@
+a="programmer"
+b=a.count('r')
+print(b)
+c=a.find('g')
+print(c)
+d=a.replace('m','y')
+print(d)
+e=a.upper()
+print(e)
+f=a.lower()
+print(f)
+g=a.strip('p')
+print(g)
