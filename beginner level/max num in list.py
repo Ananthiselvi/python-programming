@@ -1,6 +1,4 @@
-lst = []
-num = int(input('How many numbers: '))
-for n in range(num):
-    numbers = int(input('Enter number: '))
-    lst.append(numbers)
-print("Maximum element in the list is :", max(lst))
+c=[]
+a=input().split()
+c.append(c)
+print("maximum element in the list is: ",max(a))
