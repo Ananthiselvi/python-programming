@@ -1,3 +1,3 @@
-a,b=input().split()
-a,b=b,a
-print(a,b)
+num1,num2=input().split()
+num1,num2=num2,num1
+print(num1,num2)
