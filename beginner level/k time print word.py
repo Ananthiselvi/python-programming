@@ -1,4 +1,3 @@
-a=input("enter the word: ")
-b=int(input("enter the number: "))
-for i in range(b):
+a,b=input().split()
+for i in range(int(b)):
   print(a)
