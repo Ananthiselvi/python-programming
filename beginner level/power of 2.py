@@ -1,5 +1,5 @@
 a =int(input("enter the number: "))
 if ( a & (a - 1)):
-    print( "yes")
+    print( "no")
 else:
-    print ("No")
+    print ("yes")
