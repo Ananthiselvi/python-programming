@@ -1,0 +1,20 @@
+aa=str(123)
+aa=input(str( ))
+a=int(aa)
+print(a)
+b=0
+d=0
+d1=0
+place=1
+while(a>0):
+	c=a%10;
+	d=d*10+c
+	b=b+1
+	a=a/10
+print(d)
+print(b)
+while(d!=0):
+	temp=d%100
+	d1=(d1*100)+temp
+	d=d/100
+print(d1)
