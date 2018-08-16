@@ -1,0 +1,6 @@
+a=input("enter the string: ")
+b=list(a)
+length=len(b)
+c=input("enter the search string: ")
+pos=b.index(c)
+print(pos+1)
