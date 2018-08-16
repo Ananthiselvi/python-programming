@@ -1,0 +1,7 @@
+a=input("enter the string: ")
+b=a.split()
+print(b)
+length=len(b)
+c=input("enter the string1: ")
+cnt=b.count(c)
+print(cnt)
